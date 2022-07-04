@@ -3,9 +3,10 @@
 #include <stdio.h>
 
 /**
- * main - prints a text according number
  *
- * return: Always (success)
+ * main - Prints a text according number
+ *
+ * Return: Always (Success)
  */
 int main(void)
 {
@@ -13,8 +14,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	lastd = n %10;
-	lastd = abs(lastd);
+	lastd = n % 10;
 
 	if (lastd > 5)
 	{
