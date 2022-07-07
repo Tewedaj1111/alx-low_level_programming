@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 
 /**
  * _isdigit - Checks for a digit (0-9).
@@ -13,4 +13,3 @@ int _isdigit(int c)
 	else
 		return (0);
 }
-
