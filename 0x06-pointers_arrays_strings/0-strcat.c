@@ -1,5 +1,5 @@
 #include "main"
-
+#include <studio.h>
 
 /**
  * strcat - Concatenates the string pointed to by @src, including the
